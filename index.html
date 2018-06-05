@@ -1,0 +1,91 @@
+	<!DOCTYPE html>
+	<html>
+	<link href="https://fonts.googleapis.com/css?family=Oxygen+Mono" rel="stylesheet"> 
+		<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+			<title> Home </title>
+		</head>
+		
+		<link rel="stylesheet" type="text/css" href="assets/CSS/css.css">
+		<link rel="stylesheet" type="text/css" href="assets/CSS/dpbtn.css">
+		
+		<body >
+		
+		<!--
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script>
+				var images = ['bg0.jpg', 'bg1.jpg', 'bg3.jpg', 'bg4.jpg', 'bg7.jpg', 'bg8.jpg', 'bg9.jpg'];
+				$(document).ready(function(){
+						$('body').css({'background-image': 'url(./assets/pics/' + images[Math.floor(Math.random() * images.length)] + ')'});
+				});	
+			</script>
+			-->
+			
+			<!--
+			<div id="search" >
+				<p class=p> 新鮮な </p>
+				<!--
+				<form method="get" action="http://www.google.com/search">
+				<input autocomplete="off" class="searchbar" type="text" name="q" placeholder="  "/>
+				</form>
+			</div>-->
+			
+			<div id="search" >
+				<form action="http://www.google.com/search" method="get">
+					<div id="search-group">
+					<input type="text" id="search-input" name="q" placeholder=" 新鮮な " autofocus>
+					</div>
+				</form>
+			</div>
+			
+			<div id="picture">
+			</div>
+			
+			<div id="main">
+				<table style="width:100%; border-collapse: collapse; text-align:center;">
+					<tr>
+			
+					<td>
+						<div class="dropdown">
+							<button class="dropbtn">.....</button>
+								<div class="dropdown-content">
+									<a id="link" href="http://www.facebook.com"> fb </a>
+									<a id="link" href="http://www.youtube.com/feed/subscriptions"> yt </a>
+									<a id="link" href="https://mail.google.com/mail/u/0/?shva=1#inbox"> gmail </a>
+									<a id="link" href="https://sec.westpac.co.nz/IOLB/Login.jsp"> bank </a>
+									<a id="link" href="https://www.netflix.com/browse"> netflix </a>
+								</div>
+						</div>
+					</td>
+					
+					<td>
+						<div class="dropdown">
+							<button class="dropbtn">.....</button>
+								<div class="dropdown-content">
+									<a id="link" href="https://myanimelist.net/"> mal </a>
+									<a id="link" href="https://www.bakabt.me/"> baka </a>
+									<a id="link" href="https://nyaa.si/"> nyaa </a>
+									<a id="link" href="https://www4.9anime.is/"> 9anime </a>
+								</div>
+						</div>
+					</td>
+					
+					<td>
+						<div class="dropdown">
+							<button class="dropbtn">.....</button>
+								<div class="dropdown-content">
+									<a id="link" href="http://boards.4chan.org/wg/"> /wg/ </a>
+									<a id="link" href="http://boards.4chan.org/wsg/"> /wsg/ </a>
+									<a id="link" href="http://boards.4chan.org/w/"> /w/ </a>
+									<a id="link" href="https://www.reddit.com/"> reddit </a>
+								</div>
+						</div>
+					</td>
+				
+				</table>
+
+			</div>
+	
+		</body>
+	</html>

@@ -1,0 +1,107 @@
+.body
+{
+	background-repeat: no-repeat
+}
+
+#main
+{
+	width:510px;
+	height:auto;
+	margin-left: 38%;
+	margin-right: auto;
+}
+
+#search
+{
+	width:440px;
+	height:56px;
+	margin-left: 38%;
+	margin-right: auto;
+	margin-top:6%;
+	background-color: #32373C;
+	border-style: solid;
+	border-width: 4px;
+	border-bottom: none;
+	border-color: rgb(155, 101, 101);
+}
+
+#search-input {
+    width: 398px;
+	height:38px;
+	margin-left:20px;
+	margin-top:8px;
+	background-color: #32373C;
+	border:none;
+	font-size:32px;
+	text-align:center;
+	font-family: 'Oxygen Mono', monospace;
+	font-weight: bold;
+	color:rgb(155, 101, 101);
+}
+
+#picture
+{
+	width:440px;
+	height:200px;
+	margin-left: 38%;
+	margin-right: auto;
+	background-color: #32373C;
+	background-image: url("../pics/cntr3.png");
+	border-style: solid;
+	border-width: 4px;
+	border-bottom: none;
+	border-top: none;
+	border-color: rgb(155, 101, 101);
+}
+
+#content
+{
+	width:440px;
+	height:56px; 
+	float:left;
+	background-color: #32373C;
+	border-style: solid;
+	border-width: 4px;
+	border-top: none;
+	border-color: rgb(155, 101, 101);
+}
+
+#link
+{
+	text-align:left;
+	padding-left:20px;
+	line-height:48px;
+	letter-spacing:1px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:none;
+	font-family: 'Oxygen Mono', monospace;
+}
+
+a:link{
+	color: rgb(155, 101, 101);
+}
+
+a:visited{
+	color: rgb(155, 101, 101);
+}
+
+a:hover{
+	color: #4F9AB6;
+}
+
+.p{
+	font-family: 'Oxygen Mono', monospace;
+	font-size:48px;
+	font-weight: bold;
+	text-align:center;
+	color: rgb(155, 101, 101);
+	margin-right: auto;
+	margin-bottom: auto; 
+	margin-top: auto;
+}
+
+
+
+
+
